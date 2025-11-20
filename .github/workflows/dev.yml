@@ -2,13 +2,13 @@ name: Surf Dev
 
 on:
   push:
-    branches: [ "dev" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "dev" ]
+    branches: [ "main" ]
 
 jobs:
   build:
-    name: Build Surf Dev
+    name: Build Tave 16th FE API Seminar Dev
     runs-on: ubuntu-latest
 
     steps:
